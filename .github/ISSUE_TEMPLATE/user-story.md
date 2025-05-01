@@ -1,3 +1,12 @@
+---
+name: User Story
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 **As a** [role]  
 **I need** [function]  
 **So that** [benefit]  
