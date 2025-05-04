@@ -18,6 +18,8 @@ spec:
     - name: submodules
       default: "false"
     - name: build-image
+    - name: tls-verify
+      default: "false"
 
   tasks:
     - name: init
@@ -81,6 +83,8 @@ spec:
       params:
       - name: IMAGE
         value: "$(params.build-image)"
+      - name: TLSVERIFY
+        value: "$(params.tls-verify)"
       runAfter:
         - tests
         - lint
