@@ -21,7 +21,7 @@ spec:
       - image: us.icr.io/sn-labs-michaelmkkra/accounts:1
         name: accounts
         resources: {}
-        
+
         env:
           - name: DATABASE_HOST
             value: postgresql
